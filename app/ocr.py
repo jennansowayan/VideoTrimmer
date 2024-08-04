@@ -2,7 +2,7 @@ import cv2
 import pytesseract
 
 # Configure Tesseract executable path (update this if Tesseract is not in your PATH)
-pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'  # Change this path
+pytesseract.pytesseract.tesseract_cmd = r'C:\Users\j.a.sowayan\AppData\Local\Programs\Tesseract-OCR\tesseract.exe'  # Change this path
 
 def extract_timestamps(video_path, ocr_region, ocr_config='--psm 6'):
     cap = cv2.VideoCapture(video_path)
